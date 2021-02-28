@@ -12,7 +12,14 @@
   
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+ <style>
+  @font-face {
+  font-family: 'Museo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Museo'), url('fonts/MuseoSans_500.otf') format('opentype')
+}
+</style>
 
  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -129,12 +136,11 @@ body {
   <link rel="icon" href="http://ineedhelpnow.in/images/favicon.png " type="image/x-icon"> -->
 </head>
 
-<body>
+<body style = "font-family: 'Museo', serif;">
 
 <div class ="columns">
   <div class="column has-text-centered">
-    <br>
-    <br>
+    <img src="img/logo.png" id="logo_pic" style="width: 150px; height: 150px;" alt="">
     <h1 class = "title is-1" style="color: #3001B4; font-weight:bold;">Meet our CAREleaders!</h1>
   </div>
 </div>
